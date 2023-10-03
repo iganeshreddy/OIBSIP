@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+}
+.container{
+    height: 700px;
+    background-color: rgb(51, 50, 50);
+    display: flex;
+}
+.heading .left_section{
+    padding: 200px 100px;
+}
+.heading{
+    width: 40%;
+}
+.heading span{
+    letter-spacing: 4px;
+    font-weight: 900;
+    font-size: 50px;
+    color: rgb(248, 118, 4);
+}
+.container .right_section{
+    width: 60%;
+   display: flex;
+   background-image: url(assets/image2.jpg);
+   margin: 40px 40px;
+   border: 0;
+   border-radius: 10px;
+   transition: all 0.2s ease;
+}
+.right_section:hover{
+    transform: scale(1.01);
+}
+.quote{
+    height: 200px;
+    text-align: center;
+    font-size: 25px;
+    padding: 50px 0;
+}
+.quote pre{
+    font-size: large;
+}
+/* section */
+.section{
+    height: 500px;
+    display: flex;
+}
+.biography{
+    margin: 0 50px 100px 180px;
+}
+.biography p{
+    font-size: 22px;
+    margin-top: 50px;
+    color: rgba(0, 0, 0);
+}
+.section img{
+    width: 350px;
+    margin: 0 20px 0 0;
+    border: 0;
+    border-radius: 8px;
+}
+.publications{
+    margin: 0 50px 100px 180px;
+}
+.publications h1{
+    font-family: 'Kanit', sans-serif;
+    margin-bottom: 40px;
+    letter-spacing: 1.5px;
+    color: #f87604;
+}
+.publications ul li{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding: 7px;
+}
+.wiki_link{
+    text-align: center;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(127, 130, 132);
+    padding-top: 10px;
+    margin-top: 40px;
+}
+.wiki_link a{
+    text-decoration: none;
+    color: rgb(109, 81, 56);
+    border: 0;
+    border-radius: 5px;
+}
+.wiki_link a:hover{
+    text-decoration: underline;
+}
+.quote h2{
+    color: #f87604;
+    margin-bottom: 40px;
+}
+.footer{
+    height: 50px;
+    font-size: 15px;
+    background-color: rgb(51, 50, 50);
+    text-align: center;
+    padding-top: 15px;
+    color: aliceblue;
+}
